@@ -8,11 +8,15 @@ Bamboo Slideshow is a Feature (module) for [Drupal 7](http://drupal.org/project/
 * [Entity API](http://drupal.org/project/entity) - 7.x-1.0
 * [Entity Reference](http://drupal.org/project/entityreference) - 7.x-1.0
 * [Features](http://drupal.org/project/features) - 7.x-2.0-beta1
-* [Flexslider (module)](http://drupal.org/project/flexslider) - 7.x-2.x-dev (2013-Jan-25 or newer)
 * [Libraries api](http://drupal.org/project/libraries) - 7.x-2.0
 * [Views](http://drupal.org/project/views) - 7.x-3.5
-* [Views Slideshow](http://drupal.org/project/views_slideshow) - 7.x-3.x-dev (2012-Apr-24 or newer)
 * [Chaos tool suite (ctools)](http://drupal.org/project/ctools) - 7.x-1.2
+* [Views Slideshow](http://drupal.org/project/views_slideshow) - 7.x-3.x-dev (2012-Apr-24 or newer)
+* [Flexslider (the Drupal Module)](http://drupal.org/project/flexslider) - 7.x-2.0-alpha1 (After March 8th, 2013)
+* [FlexSlider Views Slideshow](http://drupal.org/project/flexslider_views_slideshow) - 7.x-2.x-dev
+
+**Note** -- As of 15 March 2013, you must now install the new module *FlexSlider Views Slideshow* (listed above) for this to work. This was split off from Flexslider and made into its own module. Thanks to all users who reported this issue to me, I really appreciate it. 
+
 
 Install the third party modules above as usual.
 See [Installing contributed modules (Drupal 7)](http://drupal.org/documentation/install/modules-themes/modules-7) for more info. 

@@ -73,6 +73,11 @@
   right: 10px;
 }
 
+.bamboo-slideshow .bamboo-slideshow-read-more a:hover {
+  color: #fff;
+  background: #999 !important;
+}
+
 .flex-control-nav {
   bottom: -28px;
 }
