@@ -48,7 +48,7 @@ function bamboo_slideshow_views_default_views() {
     'title' => 0,
     'field_slide_image' => 0,
     'field_slide_text' => 0,
-    'view_node' => 0,
+    'field_content_link_reference' => 0,
   );
   $handler->display->display_options['style_options']['widgets']['top']['views_slideshow_controls']['weight'] = '1';
   $handler->display->display_options['style_options']['widgets']['top']['views_slideshow_controls']['type'] = 'views_slideshow_controls_text';
@@ -59,9 +59,8 @@ function bamboo_slideshow_views_default_views() {
     'title' => 0,
     'field_slide_image' => 0,
     'field_slide_text' => 0,
-    'view_node' => 0,
+    'field_content_link_reference' => 0,
   );
-  $handler->display->display_options['style_options']['widgets']['bottom']['views_slideshow_controls']['enable'] = 1;
   $handler->display->display_options['style_options']['widgets']['bottom']['views_slideshow_controls']['weight'] = '1';
   $handler->display->display_options['style_options']['widgets']['bottom']['views_slideshow_controls']['hide_on_single_slide'] = 1;
   $handler->display->display_options['style_options']['widgets']['bottom']['views_slideshow_controls']['type'] = 'views_slideshow_controls_text';
