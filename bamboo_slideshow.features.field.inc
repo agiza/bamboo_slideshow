@@ -389,75 +389,8 @@ function bamboo_slideshow_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-bamboo_featured-meta_robots'.
-  $fields['node-bamboo_featured-meta_robots'] = array(
-    'field_config' => array(
-      'active' => '1',
-      'cardinality' => '1',
-      'deleted' => '0',
-      'entity_types' => array(),
-      'field_name' => 'meta_robots',
-      'foreign keys' => array(),
-      'indexes' => array(),
-      'locked' => '0',
-      'module' => 'metatags_quick',
-      'settings' => array(
-        'max_length' => '160',
-        'meta_name' => 'robots',
-      ),
-      'translatable' => '0',
-      'type' => 'metatags_quick',
-    ),
-    'field_instance' => array(
-      'bundle' => 'bamboo_featured',
-      'default_value' => array(
-        0 => array(
-          'metatags_quick' => array(
-            'nofollow' => 0,
-            'noindex' => 0,
-          ),
-        ),
-      ),
-      'deleted' => '0',
-      'description' => '',
-      'display' => array(
-        'default' => array(
-          'label' => 'above',
-          'module' => 'metatags_quick',
-          'settings' => array(
-            'semantic_field_format' => '',
-          ),
-          'type' => 'metatags_quick_default',
-          'weight' => '2',
-        ),
-        'teaser' => array(
-          'label' => 'above',
-          'settings' => array(),
-          'type' => 'hidden',
-          'weight' => 0,
-        ),
-      ),
-      'entity_type' => 'node',
-      'field_name' => 'meta_robots',
-      'label' => '(Meta)Robots',
-      'required' => 0,
-      'settings' => array(
-        'options' => 'noarchive,nofollow,noindex,noodp,nosnippet,noydir',
-        'user_register_form' => FALSE,
-      ),
-      'widget' => array(
-        'active' => 0,
-        'module' => 'metatags_quick',
-        'settings' => array(),
-        'type' => 'metatags_quick_checkboxes',
-        'weight' => '5',
-      ),
-    ),
-  );
-
   // Translatables
   // Included for use with string extractors like potx.
-  t('(Meta)Robots');
   t('<p><b>Enter some slide text. This shows up in the slideshow only. Ideally keep this to about 100 characters in length. The slideshow truncates anything longer.</b></p>');
   t('<p><b>This is an internal link to another piece of content in your site. Start to type the title of a node and autocomplete will present suggestions. Use this option for the <em>"Content Reference"</em> block style.  As a default, the "Page" and "Article" content types are available for reference but you can also add your own content types by editing the field.</b></p>
 
