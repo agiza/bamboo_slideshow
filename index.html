@@ -22,8 +22,8 @@
           <h2 id="project_tagline">A Drupal 7 responsive slideshow Feature</h2>
 
             <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/highrockmedia/bamboo_slideshow/archive/7.x-1.x.zip">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/highrockmedia/bamboo_slideshow/archive/7.x-1.x.tar.gz">Download this project as a tar.gz file</a>
+              <a class="zip_download_link" href="https://github.com/highrockmedia/bamboo_slideshow/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/highrockmedia/bamboo_slideshow/tarball/master">Download this project as a tar.gz file</a>
             </section>
         </header>
     </div>
@@ -53,24 +53,18 @@
 <li>
 <a href="http://drupal.org/project/views_slideshow">Views Slideshow</a> - 7.x-3.x-dev (2012-Apr-24 or newer)</li>
 <li>
-<a href="http://drupal.org/project/flexslider_views_slideshow">FlexSlider Views Slideshow</a> - 7.x-2.x-dev</li>
+<a href="http://drupal.org/project/flexslider_views_slideshow">FlexSlider Views Slideshow</a> - 7.x-2.x-dev]</li>
 <li>
 <a href="http://drupal.org/project/flexslider">Flexslider (the Drupal Module)</a> - 7.x-2.0-alpha1 (After March 8th, 2013)</li>
 <li><a href="http://flexslider.woothemes.com/">Flexslider 2.x (The library from WooThemes)</a></li>
-</ul><hr>
-
-<ol>
-<li>Download and install the third party modules above as usual. You can download these all at once if you have Drush installed:<br>
-<code>drush dl entityreference, entity, features, libraries, views, ctools, views_slideshow-7.x-3.x-dev, flexslider_views_slideshow-7.x-2.x-dev, flexslider</code><br>
-... but you will still need to download the Flexslider library from Woothemes. 
-See <a href="http://drupal.org/documentation/install/modules-themes/modules-7">Installing contributed modules (Drupal 7)</a> for more info. </li>
+</ul><hr><ol>
+<li>Install the third party modules above as usual.
+See <a href="http://drupal.org/documentation/install/modules-themes/modules-7">Installing contributed modules (Drupal 7)</a> for more info. 
+You can download these all at once if you have Drush installed:<br><code>drush dl entityreference, entity, features, libraries, views, ctools, views_slideshow-7.x-3.x-dev, flexslider_views_slideshow-7.x-2.x-dev, flexslider</code><br>
+... but you will still need to download the Flexslider library from Woothemes. </li>
 <li>Download and install the Flexslider library in <em>/sites/all/libraries</em>.  After download, it will look like "woothemes-FlexSlider-06b12f8" or similar. You should rename this folder to "flexslider", all lower case so your final end result is <em>/sites/all/libraries/flexslider</em>.</li>
-<li>Install the Bamboo Slideshow Feature (this module) as per above or if you have a "custom" directory under /modules.  Be sure to rename the unzipped / untarred "<em>bamboo_slideshow-7.x-1.x</em>" to just "<em>bamboo_slideshow</em>"
-
-</li>
-</ol>
-
-<p><strong>Typical locations for Drupal modules:</strong></p>
+<li>Install the Bamboo Slideshow Feature (this module) as per above or if you have a "custom" directory under /modules. Be sure to rename the unzipped / untarred "bamboo_slideshow-7.x-1.x" to just "bamboo_slideshow"</li>
+</ol><p><strong>Typical locations for Drupal modules:</strong></p>
 
 <ul>
 <li><em>/sites/mysite.com/modules</em></li>
@@ -83,11 +77,7 @@ See <a href="http://drupal.org/documentation/install/modules-themes/modules-7">I
 </li>
 <li>When you activate the Bamboo slideshow module, you will be prompted to activate the dependent modules. Be sure to agree to this option to activate these dependent modules. </li>
 <li>Tested with Drupal 7.21</li>
-</ul>
-
-<hr>
-
-<h2>Create Slideshow Content</h2>
+</ul><hr><h2>Create Slideshow Content</h2>
 
 <p>Now that you have installed everything (and hopefully it went well :), create some content. </p>
 
@@ -116,28 +106,22 @@ See <a href="http://drupal.org/documentation/install/modules-themes/modules-7">I
 <li><strong>View: Featured Slideshow: Content Reference Slideshow Block</strong></li>
 </ol><p>Use the first block if you are using the <strong>Page Content field</strong>, use the second block if you are using the <strong>Content Link Reference</strong> option. See "Node Fields" above for more info. Ideally you want to place this in a block region that is a full width of your theme. In the Bamboo theme, the region is called "Hero 1"</p>
 
-<h2>Support</h2>
+<hr><h2>Updating Bamboo Slideshow</h2>
+
+<p>To update the Bamboo Slideshow feature, follow these steps:</p>
+
+<ol>
+<li>
+<a href="http://highrockmedia.github.com/bamboo_slideshow/">Download the feature</a> as usual</li>
+<li>Rename the unzipped / untarred "bamboo_slideshow-7.x-1.x" to just "bamboo_slideshow" and replace the old one with this new one wherever you have it in your site. i.e. <em>/sites/all/modules</em>
+</li>
+<li>Clear your Drupal cache</li>
+<li>Go to your drupal Features admin page and check to see if Bamboo Slideshow has been overridden at: /admin/structure/features</li>
+<li>If 3 above is true (most likely), click on "overridden", check any boxes and save by clicking "Revert Feature".</li>
+<li>Clear your Drupal cache once again. </li>
+</ol><hr><h2>Support</h2>
 
 <p>This Feature is free and licensed under GPL. However, if you require support, I can offer this on a paid basis either hourly or per project. Please do not open an issue for this in the Bamboo issue queue on drupal.org, <a href="http://highrockmedia.com/contact-us">contact me directly</a>. </p>
-
-<h2>Buy me a Latte</h2>
-       <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="3EV4EU6BZK9YE">
-<table>
-<tr><td><input type="hidden" name="on0" value="Choose an option:"><strong>Choose an option:</strong></td></tr><tr><td><select name="os0">
-  <option value="Latte">Latte $5.00 USD</option>
-	<option value="Latte &amp; chocolate">Latte &amp; chocolate $10.00 USD</option>
-	<option value="Lunch">Lunch $20.00 USD</option>
-	<option value="Dinner">Dinner $30.00 USD</option>
-	<option value="Fancy Dinner">Fancy Dinner $50.00 USD</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<input type="image" src="http://highrockmedia.com/sites/default/files/donate.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-
       </section>
     </div>
 
@@ -150,5 +134,6 @@ See <a href="http://drupal.org/documentation/install/modules-themes/modules-7">I
     </div>
 
     
+
   </body>
 </html>
