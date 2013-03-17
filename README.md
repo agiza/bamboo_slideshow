@@ -71,6 +71,19 @@ The Feature creates two blocks as mentioned above. You can see these on the bloc
 
 Use the first block if you are using the **Page Content field**, use the second block if you are using the **Content Link Reference** option. See "Node Fields" above for more info. Ideally you want to place this in a block region that is a full width of your theme. In the Bamboo theme, the region is called "Hero 1"
 
+-----
+
+##Updating Bamboo Slideshow
+To update the Bamboo Slideshow feature, follow these steps:
+
+1. [Download the feature](http://highrockmedia.github.com/bamboo_slideshow/) as usual
+2. Rename the unzipped / untarred "bamboo_slideshow-7.x-1.x" to just "bamboo_slideshow" and replace the old one with this new one wherever you have it in your site. i.e. */sites/all/modules*
+4. Clear your Drupal cache
+3. Go to your drupal Features admin page and check to see if Bamboo Slideshow has been overridden at: /admin/structure/features
+4. If 3 above is true (most likely), click on "overridden", check any boxes and save by clicking "Revert Feature".
+5. Clear your Drupal cache once again. 
+
+-----
 
 ##Support
 This Feature is free and licensed under GPL. However, if you require support, I can offer this on a paid basis either hourly or per project. Please do not open an issue for this in the Bamboo issue queue on drupal.org, [contact me directly](http://highrockmedia.com/contact-us). 
